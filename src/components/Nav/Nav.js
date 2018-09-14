@@ -17,8 +17,8 @@ function Nav (props) {
         return (
                 
     <div className = 'nav'>
-        <h2>Welcome User: {this.props.username}</h2>
-        <img src={this.props.profile_pic} alt=""/>
+        {/* <h2>Welcome User: {this.props.username}</h2> */}
+        {/* <img src={this.props.profile_pic} alt=""/> */}
     <Link to = '/dashboard'> <button>Home</button></Link>
     <br/>
 
